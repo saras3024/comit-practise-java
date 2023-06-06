@@ -8,7 +8,7 @@ public class Exercise12 {
 	public static void main(String[] args)
 	{
 		double r = 7.5;
-		double PI = 3.14;
+	    final double PI = 3.14;
 		
 		double areaOfTheCircle = PI * r * r;
 		double perimeterOfTheCircle = 2 * PI * r;

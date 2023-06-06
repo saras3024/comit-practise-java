@@ -6,10 +6,15 @@ public class Exercise08 {
 		//Write a Java program to print out the values of the following expressions:
 		
 		double a = (double)(101+0)/3;
+		
 		double b = 3.0e-6 * 10_000_000.1;
+		
 		boolean c = true && true;
+		
 		boolean d = false && true;
+		
 		boolean e = (false && false)||(true && true);
+		
 		boolean f = (false && false) &&(true && true);
 				
 
