@@ -28,7 +28,7 @@ public class Exercise31 {
 			System.out.println("Average of your grade is greater than 6, so you are approved");
 		}
 		else
-			System.out.println("Average of your grade is greater than 6, so you are not approved");
+			System.out.println("Average of your grade is not greater than 6, so you are not approved");
 		
 
 	}
