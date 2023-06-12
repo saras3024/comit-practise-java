@@ -1,10 +1,12 @@
-package org.comit.practise._04_while_loop;
+package org.comit.practise._05_scan;
 
 import java.util.Scanner;
 
 public class Exercise34 {
 
-	public static void main(String[] args) {
+	//public static void main(String[] args)
+	public void calculator()
+	{
 		// Make a calculator.
 		
 		Scanner input = new Scanner(System.in);

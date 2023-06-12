@@ -1,4 +1,4 @@
-package org.comit.practise._04_while_loop;
+package org.comit.practise._05_scan;
 
 import java.util.Scanner;
 

@@ -8,7 +8,8 @@ public class Exercise25 {
 		int i = 1;
 		while(i <= 30)
 		{
-			System.out.println(i + " ^2 : " + (i * i));
+			//System.out.println(i + " ^2 : " + (i * i));
+			System.out.printf("The square of %2d is %3d %n", i , i * i);
 			i++;
 		}
 	}

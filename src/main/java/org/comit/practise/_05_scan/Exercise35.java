@@ -1,4 +1,4 @@
-package org.comit.practise._04_while_loop;
+package org.comit.practise._05_scan;
 
 import java.util.Scanner;
 
@@ -20,6 +20,8 @@ public class Exercise35 {
 		double hourlyWage = input.nextDouble();
 		
 		
+		
+		
 		double salary = noOfHours * hourlyWage;
 		
 		if(salary >= 1000)
@@ -29,6 +31,7 @@ public class Exercise35 {
 		}
 		else
 			salary = salary + (salary * 0.15);
+			System.out.println("Your new salary is :" + salary);
 		input.close();
 		
 		

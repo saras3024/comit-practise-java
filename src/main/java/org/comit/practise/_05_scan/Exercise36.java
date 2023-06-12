@@ -1,4 +1,4 @@
-package org.comit.practise._04_while_loop;
+package org.comit.practise._05_scan;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -16,6 +16,7 @@ public class Exercise36 {
 		int noOfWorkers = input.nextInt();
 		
 		double[] salary = new double[noOfWorkers];
+		
 		
 		for(int i = 0; i < noOfWorkers; i++)
 		{
