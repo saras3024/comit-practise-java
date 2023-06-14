@@ -9,7 +9,11 @@ public class Exercise45 {
 		boolean appear = false;;
 		
 		for(int i = 0; i < str.length(); i++)
+			
 		{
+			if ( str.charAt(i)==' ' ) {
+				continue; // skip blank spaces
+			}
 			for (int j= i + 1; j< str.length(); j++)
 			{
 				if(str.charAt(i) == str.charAt(j))
